@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justine Exconde | Frontend Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="images/.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg-photo" aria-hidden="true"></div>
+
+  <div class="container-fluid min-vh-100 py-4 py-md-5 px-3 px-md-5">
+    <div class="row g-4 justify-content-center">
+
+      <aside class="col-xl-3 col-lg-4 col-md-5">
+        <div class="profile-card text-center p-4 sticky-top">
+          <div class="avatar-container mb-4 mx-auto">
+            <img src="images/profile-avatar.jpg" alt="Justine Exconde" class="img-fluid rounded-5" />
+          </div>
+
+          <h1 class="h4 fw-bold mb-1 tracking-tight">Justine Exconde</h1>
+          <p class="text-accent small fw-semibold uppercase tracking-wider mb-4">Frontend Developer</p>
+
+          <hr class="my-4 opacity-10" />
+
+          <div class="contact-info-list text-start small mb-4">
+            <div class="d-flex align-items-center mb-3">
+              <div class="icon-box me-3"><i class="fa-regular fa-envelope"></i></div>
+              <div>
+                <span class="text-muted d-block extra-small">EMAIL</span>
+                <a href="mailto:mjexconde00@gmail.com" class="text-dark text-decoration-none fw-medium">mjexconde00@gmail.com</a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <div class="icon-box me-3"><i class="fa-regular fa-comment"></i></div>
+              <div>
+                <span class="text-muted d-block extra-small">PHONE</span>
+                <span class="fw-medium text-dark">0928-209-4465</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="icon-box me-3"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="text-muted d-block extra-small">LOCATION</span>
+                <span class="fw-medium text-dark">Sto. Tomas City, Batangas</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center gap-2 mt-4">
+            <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </aside>
+
+      <main class="col-xl-7 col-lg-8 col-md-7">
+        <div class="content-wrapper p-4 p-md-5">
+          <ul class="nav custom-nav mb-5 d-flex justify-content-md-start justify-content-between"
+            id="portfolioTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button"
+                role="tab">About</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button"
+                role="tab">Projects</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contacts-tab" data-bs-toggle="tab" data-bs-target="#contacts" type="button"
+                role="tab">Contact</button>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="portfolioTabsContent">
+            <div class="tab-pane fade show active" id="about" role="tabpanel">
+              <h2 class="display-6 fw-bold mb-4">About Me</h2>
+              <p class="lead-text text-muted mb-5">
+                Hello, I'm Justine Exconde, a Frontend Developer dedicated to building modern, responsive, and
+                engaging web applications. I combine creativity and technical skills to create clean, user-focused
+                digital experiences that make an impact.
+              </p>
+
+              <h3 class="h5 fw-bold mb-4 tracking-tight">My Expertise</h3>
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="skill-card p-4">
+                    <div class="d-flex align-items-center mb-3">
+                      <i class="fab fa-html5 text-danger display-6 me-3"></i>
+                      <h4 class="h6 fw-bold mb-0">Front-end Development</h4>
+                    </div>
+                    <p class="small text-muted mb-0">I build responsive websites and web applications with a focus on clean
+                      user interfaces, smooth user experiences, and modern front-end technologies.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="skill-card p-4">
+                    <div class="d-flex align-items-center mb-3">
+                      <i class="fab fa-css3-alt text-primary display-6 me-3"></i>
+                      <h4 class="h6 fw-bold mb-0">UI/UX Design Alignment</h4>
+                    </div>
+                    <p class="small text-muted mb-0">Designing website architecture and visual structure that makes digital
+                      interaction seamless, aesthetic, and fully accessible.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="projects" role="tabpanel">
+              <h2 class="display-6 fw-bold mb-4">My Projects</h2>
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="project-card">
+                    <div class="project-preview p-4 d-flex align-items-center justify-content-center">
+                      <img src="images/project1.png" alt="Rental House Subdivision preview"
+                        class="img-fluid rounded-3" style="max-height:220px; object-fit:cover;" />
+                    </div>
+                    <div class="p-4">
+                      <h4 class="h6 fw-bold mb-1">Rental-House-Subdivision</h4>
+                      <p class="small text-muted mb-3">Web Architecture & UI Integration</p>
+                      <a href="#" class="btn btn-outline-dark btn-sm rounded-pill px-3">See Project</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="project-card">
+                    <div class="project-preview p-4 d-flex align-items-center justify-content-center">
+                      <img src="images/project2.png" alt="Logo 3d preview"
+                        class="img-fluid rounded-3" style="max-height:220px; object-fit:cover;" />
+                    </div>
+                    <div class="p-4">
+                      <h4 class="h6 fw-bold mb-1">Logo 3d</h4>
+                      <p class="small text-muted mb-3">UI/UX Design & Prototyping</p>
+                      <a href="#" class="btn btn-outline-dark btn-sm rounded-pill px-3">See Project</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="contacts" role="tabpanel">
+              <h2 class="display-6 fw-bold mb-2">Get in touch</h2>
+              <p class="text-muted mb-4">Have an opportunity or a project in mind? Feel free to reach out—I'd love to hear
+                from you.</p>
+
+              <div class="status-badge mb-4 d-inline-flex align-items-center px-3 py-1 rounded-pill bg-success bg-opacity-10 text-success small">
+                <span class="pulse-dot me-2"></span> Available for opportunities
+              </div>
+
+              <form class="mt-4">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label extra-small fw-bold text-muted uppercase">Your Name</label>
+                    <input type="text" class="form-control custom-input" placeholder="Enter your name" />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label extra-small fw-bold text-muted uppercase">Email Address</label>
+                    <input type="email" class="form-control custom-input" placeholder="name@example.com" />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label extra-small fw-bold text-muted uppercase">Subject</label>
+                    <input type="text" class="form-control custom-input" placeholder="Project collaboration proposal" />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label extra-small fw-bold text-muted uppercase">Message</label>
+                    <textarea class="form-control custom-input" rows="4" placeholder="Tell me about your project..."></textarea>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-dark w-100 py-3 rounded-3 tracking-wide text-uppercase font-weight-bold btn-submit">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </main>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
